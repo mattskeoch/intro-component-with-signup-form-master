@@ -33,7 +33,13 @@ body {
     background-size: cover;
     background-repeat: repeat-y;
 }
-
+@media (max-width: 800px) {
+    body {
+        background-image: url(/images/bg-intro-mobile.png);
+        background-position: center;
+        background-size: cover;        
+    }
+} 
 a,
 a:visited,
 a:hover {

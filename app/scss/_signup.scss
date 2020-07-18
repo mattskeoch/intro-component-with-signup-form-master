@@ -11,7 +11,6 @@
     place-items: center;
     height: 100vh;
     padding: 0 80px;
-
 }
 
 .signup--content {
@@ -111,14 +110,11 @@ button.signup__free-trial {
     font-size: $font-med;
     letter-spacing: 0.1em;
     border: none;
-
     padding: 18px 30px 15px 30px;
-
     border-radius: 5px;
     border-bottom: 4px solid #32B87D;
     -webkit-transition: 150ms;
     transition: 150ms ease-in-out;
-
     outline: none;
 
     &:hover {
@@ -189,7 +185,6 @@ button.signup__free-trial {
         padding-left: 20px;
         padding-right: 20px;
     }
-
 }
 
 @media (max-width: 1420px) {
