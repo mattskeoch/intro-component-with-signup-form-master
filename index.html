@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="stylesheet" href="/dist/css/style.min.css" />
+
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <div class="signup">
+      <div class="signup--content">
+        <h2 class="signup--heading">Learn to code by watching others</h2>
+
+        <p class="signup--copy-main">See how experienced developers solve problems in real-time. Watching scripted
+          tutorials is great,
+          but understanding how developers think is invaluable.
+        </p>
+
+      </div>
+
+      <div class="signup--form">
+        <div class="signup--cta">
+          <p class="signup--copy-secondary">
+            <strong>Try it free 7 days</strong> then $20/mo thereafter.</p>
+        </div>
+        <form>
+          <div class="input-group">
+            <label for="first-name" class="input-group__label hidden">First Name:</label>
+            <input type="text" id="first-name" placeholder="First Name" minlength="2" aria-required="true"
+              aria-invalid="false" required>
+            <label for="last-name" class="input-group__label hidden">Last Name:</label>
+            <input type="text" id="last-name" placeholder="Last Name" minlength="2" aria-required="true"
+              aria-invalid="false" required>
+            <label for="email" class="input-group__label hidden">Email address:</label>
+            <input type="email" id="email" placeholder="Email Address" aria-required="true" aria-invalid="false"
+              required>
+            <label for="password" class="input-group__label hidden">Email address:</label>
+            <input type="password" id="password" placeholder="Password" minlength="8" aria-required="true"
+              aria-invalid="false" required>
+            <button class="signup__free-trial">Claim your free trial</button>
+            <p class="signup--tos">
+              By clicking the button, you are agreeing to our
+              <a class="signup--link" href="#">Terms and Services </a>
+            </p>
+          </div>
+        </form>
+
+        <footer>
+          <p class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="#">Matt Skeoch</a>.
+          </p>
+        </footer>
+
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+</body>
+
+</html>
